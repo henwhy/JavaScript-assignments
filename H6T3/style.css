@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+.course-popup {
+    min-width: 220px;
+    max-width: 300px;
+}
+
+.course-popup h3 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    color: #222;
+}
+
+.course-popup p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.course-popup .description {
+    margin-top: 12px;
+    font-style: italic;
+    color: #555;
+}
+
+.course-popup a {
+    color: #1769aa;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.course-popup a:hover {
+    text-decoration: underline;
+}
